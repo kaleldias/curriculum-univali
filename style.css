@@ -1,0 +1,293 @@
+/* Estilização Container Pai */
+
+body{
+    background-color: #8b8b8b;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0px auto;
+    font-family: "Montserrat";
+    flex-direction: row;
+    padding: 20px 0;
+
+}
+
+/* Estilização Container Esquerdo */
+
+.left-container {
+    display: flex;
+    padding: 0px 20px 50px 0px; 
+    background-color: rgb(212, 212, 212);
+    width: 35%;
+    flex-direction: column;
+    
+}
+
+
+.profile {
+    padding: 30px 0px 20px 30px;
+    
+    
+}
+
+.profile-picture {
+    width: 100%;
+    border-bottom: 12px solid #ffc933;
+    border-radius: 3px 3px 0px 0px;
+    
+}
+
+.profile table{
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr, td {
+    border: 0px solid #8b8b8b;
+    align-content: baseline;
+}
+
+.lado-direito {
+    padding: 8px 0px 0px 35px;
+    font-weight: 500;
+}
+
+#txt-perfil {
+    margin: 0;
+    padding: 50px 0px 10px 0px;
+}
+
+.divisor {
+    border: none;
+    background-color: rgb(155, 155, 155);
+    height: 2px;
+    width: 100%;
+    margin: 30px 0;    
+}
+
+.skills ul{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.skills ul li {
+    padding: 10px 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.progress-bar {
+    background-color: rgb(158, 158, 158);
+    width: 100%;
+    height: 8px;
+    border-radius: 50px 50px;
+}
+
+.progress-psd {
+    background-color: rgb(115, 179, 12);
+    width: 70%;
+    height: 8px;
+    border-radius: 50px 50px;
+}
+
+.progress-uiux {
+    background-color: rgb(2, 172, 30);
+    width: 100%;
+    height: 8px;
+    border-radius: 50px 50px;
+}
+
+.progress-after {
+    background-color: rgb(228, 183, 34);
+    width: 35%;
+    height: 8px;
+    border-radius: 50px 50px;
+}
+
+.progress-wordpress {
+    background-color: rgb(2, 172, 30);
+    width: 99%;
+    height: 8px;
+    border-radius: 50px 50px;
+}
+
+.progress-js {
+    background-color: rgb(212, 69, 13);
+    width: 16%;
+    height: 8px;
+    border-radius: 50px 50px;
+}
+
+.education p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    
+}
+
+.education h4{
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.portfolio a {
+    font-size: 14px;
+    
+}
+
+
+/* Estilização Container Direito */
+
+.right-container {
+    display: flex;
+    width:  65%;
+    padding: 0px 20px 0px 20px;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 50px;
+}
+
+
+
+.info {
+    margin-bottom: 50px;
+}
+
+.divisor-header-info {
+    width: 15%;
+    margin: 30px 0px 50px 0px;
+    border: none;
+    background-color: rgb(155, 155, 155);
+    height: 2px;
+    
+    
+    
+}
+
+.container-row{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: space-between;
+    padding-right: 180px;
+    
+
+}
+
+.contato-left {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contato-left span{
+    background-color: #ffc933;
+    padding: 0px 50px 130px 10px;
+    
+}
+
+.Icon {
+    width: 20px;
+    padding: 0px 10px 0px 0px;
+    margin: 0 0 -5px 0;
+    
+}
+
+.contato-left ul, .contato-right ul {
+    list-style-type: none;
+    padding: 0;
+    
+    
+}
+
+.contato-left ul li, .contato-right ul li {
+    padding: 5px 0;
+}
+
+
+
+.contato-right hr {
+    width: 180%;
+    border: none;
+    background-color: rgb(155, 155, 155);
+    height: 2px;
+}
+
+.contato-left hr{
+    width: 100%;
+    border: none;
+    background-color: rgb(155, 155, 155);
+    height: 2px;
+    
+}
+
+.info h1 {
+    line-height: 62px;
+}
+
+.info h3 {
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    margin-top: -20px;
+    
+    
+}
+
+#nome {
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 2rem;
+    padding-left: 5px;
+    
+    
+}
+
+#sobrenome-style{
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
+    margin-left: -2px;
+}
+
+
+
+.timeline span {
+    font-size: 14px;
+}
+
+.work-data {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.timeline p {
+    line-height: 25px;
+}
+
+.timeline ul {
+    line-height: 30px;
+}
+
+.referencias-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.colunaRef01 {
+    line-height: 25px;
+}
+
+.colunaRef02 {
+    line-height: 25px;
+    
+}
+
